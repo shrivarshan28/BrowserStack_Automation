@@ -8,10 +8,10 @@ run_settings:
   npm_dependencies: false
 
 browserstack:
-  username: YOUR_USERNAME
-  access_key: YOUR_ACCESS_KEY
+  username: shrivarshang_XzgO9u
+  access_key: tpDuk6AKVDVNsoYBzGZN
 
-  # Browsers / devices to test on
+
   browsers:
     - browser: "chrome"
       os: "Windows"
