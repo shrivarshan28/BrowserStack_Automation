@@ -1,0 +1,41 @@
+
+version: 2
+run_settings:
+  cypress_config_file: ./cypress.json
+  project_name: ElPais Website Demo
+  build_name: Demo Build
+  parallels: 5
+  npm_dependencies: false
+
+browserstack:
+  username: YOUR_USERNAME
+  access_key: YOUR_ACCESS_KEY
+
+  # Browsers / devices to test on
+  browsers:
+    - browser: "chrome"
+      os: "Windows"
+      os_version: "11"
+      name: "Windows Chrome"
+
+    - browser: "firefox"
+      os: "OS X"
+      os_version: "Monterey"
+      name: "Mac Firefox"
+
+    - device: "iPhone 13"
+      os_version: "15"
+      real_mobile: true
+      browser: "safari"
+      name: "iPhone Safari"
+
+    - device: "Samsung Galaxy S21"
+      os_version: "11.0"
+      real_mobile: true
+      browser: "chrome"
+      name: "Samsung Chrome"
+
+    - browser: "edge"
+      os: "Windows"
+      os_version: "10"
+      name: "Windows Edge"
