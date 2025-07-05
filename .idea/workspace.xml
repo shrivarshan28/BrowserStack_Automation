@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa30498c-4494-4c98-aa01-c2ae6cfcc88b" name="Changes" comment="Code development">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browserstack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/browserstack.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserstack_webAutomation_accesskeys.py" beforeDir="false" afterPath="$PROJECT_DIR$/browserstack_webAutomation_accesskeys.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751732868048</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Code development">
+      <option name="closed" value="true" />
+      <created>1751732933109</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751732933109</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

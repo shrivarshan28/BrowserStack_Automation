@@ -64,6 +64,7 @@ def run_test(capabilities):
                 translated = GoogleTranslator(source='es', target='en').translate(title)
                 translated_titles.append(translated)
                 print(f"Translated Title: {translated}")
+
             except Exception as e:
                 print(f"Translation failed: {e}")
 
@@ -81,6 +82,13 @@ def run_test(capabilities):
                     print("Imagen no disponible.")
             else:
                 print("Imagen no encontrada.")
+
+        driver.execute_script(
+            'browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"passed","reason": "Scraping completed successfully"}}')
+    except Exception as e:
+        print(f"Exception: {e}")
+        driver.execute_script(
+            f'browserstack_executor: {{"action": "setSessionStatus", "arguments": {{"status":"failed","reason": "{str(e)}"}}}}')
 
     finally:
         driver.quit()
