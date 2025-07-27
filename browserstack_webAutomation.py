@@ -11,7 +11,7 @@ import re
 
 # Configure headless browser
 options = Options()
-# options.add_argument("--headless")  # if we don't want to see the browser
+#options.add_argument("--headless")  # if we don't want to see the browser
 service = Service()
 driver = webdriver.Chrome(service=service, options=options)
 translated_titles = []

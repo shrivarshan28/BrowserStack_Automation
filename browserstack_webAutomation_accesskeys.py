@@ -30,7 +30,7 @@ def run_test(capabilities):
         time.sleep(3)
     # Dismiss cookie popup if it appears
         try:
-            accept_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Accept')]")
+            accept_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Aceptar')]")
             accept_button.click()
             time.sleep(2)
             print("Cookie banner dismissed.")
